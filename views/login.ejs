@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In Page</title>
+        <style>
+             body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* Add more styles as needed for a better layout */
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Log In</h1>
+        <form action="/user/login" method="post">
+
+            <label for>Email</label>
+            <input type="text" required name="email"
+                placeholder="Enter Your Email" />
+            <label for>Password</label>
+            <input type="text" required name="password"
+                placeholder="Enter Your Password" />
+            <button type="submit">Log In</button>
+        </form>
+    </body>
+</html>
